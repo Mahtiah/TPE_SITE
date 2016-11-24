@@ -1,0 +1,16 @@
+strong
+{
+    text-decoration:underline;
+}
+
+body
+{
+    background-color:rgba(0, 0, 90, 0.5);
+    color:white;
+}
+
+h1
+{
+    text-align:center;
+    text-decoration:underline;
+}
