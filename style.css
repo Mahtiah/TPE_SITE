@@ -1,17 +1,17 @@
-
 body
 {
-    background-color : cornflowerblue;
+    background-color : rgb(204, 204, 255);
 }
 
-header, footer
+header
 {
     height : 75px;
     border-style : solid;
-    border-color : rgba(0, 110, 200, 1);
+    border-color : rgb(0, 51, 102);
     border-width : thin;
-    background-color: rgba(0, 110, 200, 1);
+    background-color : rgb(0, 51, 102);
     text-align : center;
+    margin-top :
 }
 
 h1
@@ -36,5 +36,16 @@ article
     margin : auto;
     padding-left : 10px;
     padding-right : 10px;
+}
+
+.article_sommaire
+{
+    display : flex;
+}
+
+.sommaire
+{
+    border-style : solid;
+    border-color : black;
 }
     
