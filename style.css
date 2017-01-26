@@ -46,6 +46,7 @@ article
 .sommaire
 {
     border-style : solid;
-    border-color : black;
+    border-color : black; 
+    position : fixed;
 }
     
