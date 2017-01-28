@@ -1,18 +1,18 @@
 body
 {
-  background-color : rgba(0, 0, 0, 0.3);
-  margin : 0;
-  width : 100%;
-  height : 100%;
+    background-color : rgba(0, 0, 0, 0.3);
+    margin : 0;
+    width : 100%;
+    height : 100%;
 }
 
 header
 {
     height : 75px;
     border-style : solid;
-    border-color : rgb(0, 51, 102);
+    border-color : OliveDrab;
     text-align : center;
-    background-color : rgb(0, 51, 102);
+    background-color : OliveDrab;
 }
 
 h1
@@ -23,7 +23,7 @@ h1
 
 h1:hover
 {
-   text-decoration : underline;
+    text-decoration : underline;
 }
 
 p
@@ -34,12 +34,11 @@ p
 article
 {
     text-align : justify;
-    background-color: white;
-    padding-left : 10px;
-    padding-right : 10px;
+    background-color : white;
+    padding : 10px;
     width : 75%;
     margin-left : 12.5%;
-    border-radius: 8px;
+    border-radius : 8px;
 }
 
 .flex_container
@@ -51,11 +50,13 @@ article
 .flex_item
 {
 	flex : 1;
+    text-align : center;
 }
 
 .flex_item:hover
 {
-  background-color : grey;
+    background-color : grey;
+    text-transform : uppercase;
 }
 
 h2
@@ -69,3 +70,10 @@ h2:hover
     font-size : 20px;
     color : white;
 }
+
+a
+{
+    text-decoration : inherit;
+    color : inherit;
+}
+
