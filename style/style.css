@@ -33,19 +33,18 @@ h2
 
 h3
 {
-    font-size : 18px;
+    font-size : 20px;
     text-align : center;
     text-decoration : underline;
 }
 
 p
 {
-    font-size : 16px;
+    font-size : 18px;
 }
 
 article
 {
-    text-align : justify;
     background-color : white;
     padding : 10px;
     margin-top : 10px;
@@ -69,6 +68,16 @@ article
 .flex_item:hover
 {
     text-transform : uppercase;
+}
+
+img
+{
+    box-shadow: 10px 10px 5px black;
+}
+
+.def
+{
+
 }
 
 a
