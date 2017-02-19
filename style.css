@@ -31,9 +31,16 @@ h2
     color : white;
 }
 
-p
+h3
 {
     font-size : 18px;
+    text-align : center;
+    text-decoration : underline;
+}
+
+p
+{
+    font-size : 16px;
 }
 
 article
@@ -69,4 +76,3 @@ a
     text-decoration : inherit;
     color : inherit;
 }
-
