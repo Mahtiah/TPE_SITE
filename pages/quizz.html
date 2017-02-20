@@ -34,15 +34,85 @@
             </div>
         </div>
         <article>
-            <p>Bienvenue sur le site du TPE de Haitham Mekhaemar, Alexandre Cros et Pierre Lévèque sur le Choléra.
-              Vous pourrez trouver sur le site les différentes sections qui apportent une explication à notre problématique qui est :
-              Comment se fait il que l'épidémie de Choléra survenue à Haïti en 2010, a épargné la République Dominicaine, état frontalier ?
-            ainsi qu'une liste de définitions pour mieux comprendre le vocabulaire employé, une médiagraphie pour vérifier nos sources et un quizz pour tester
-        ses connaissances au préalable ou après avoir naviguer sur le site. Sur-ce nous vous souhaitons une bonne expérience sur notre site. </p>
+            <p>Bienvenue au Quizz, ici vos connaissances seront évalués, et peut-être repartirez-vous avec le plein de savoir ! Une fois les réponses aux questions cochées, appuyer sur Valider pour connaître votre note ! Bonne chance et que le meilleur gagne !</p>
+            <ol>
+                <li>
+                    <p>Le Choléra est une maladie qui affecte les humains et les animaux.</p>
+                    <form action="" id="question_1">
+                        <input type="radio" name="question_1" value="yes">Oui<br>
+                        <input type="radio" name="question_1" value="no">Non<br>                    
+                    </form>
+                </li>
+                <li>
+                    <p>Pour soigner le Choléra on attend que les diarrhées cessent et l'on nourrit la personne atteinte.</p>
+                    <form action="" id="question_2">
+                        <input type="radio" name="question_2" value="yes">Oui<br>
+                        <input type="radio" name="question_2" value="no">Non<br>                    
+                    </form>
+                </li>
+                <li>
+                    <p>L'eau détruit le Choléra.</p>
+                    <form action="" id="question_3">
+                        <input type="radio" name="question_3" value="yes">Oui<br>
+                        <input type="radio" name="question_3" value="no">Non<br>                    
+                    </form>
+                </li>
+                <li>
+                    <p>Haïti est une ancienne colonie Espagnole.</p>
+                    <form action="" id="question_4">
+                        <input type="radio" name="question_4" value="yes">Oui<br>
+                        <input type="radio" name="question_4" value="no">Non<br>                    
+                    </form>
+                </li>
+                <li>
+                    <p>La République Dominicaine est une ancienne colonie Mexicaine.</p>
+                    <form action="" id="question_5">
+                        <input type="radio" name="question_5" value="yes">Oui<br>
+                        <input type="radio" name="question_5" value="no">Non<br>                    
+                    </form>
+                </li>
+                <li>
+                    <p>Une personne peut-être allergique au Choléra.</p>
+                    <form action="" id="question_6">
+                        <input type="radio" name="question_6" value="yes">Oui<br>
+                        <input type="radio" name="question_6" value="no">Non<br>                    
+                    </form>
+                </li>
+            </ol>
+            <form action="">
+                <button type="button">Valider !</button>
+            </form>
             <hr>
             <footer>
             <p>Réalisé dans le cadre du TPE 2016/2017 du groupe 1 de 1S2 du lycée émilie du châtelet</p>
             </footer>
         </article>
+        <script src="../scripts/quizz.js"></script>
+        <script>
+        var button = document.querySelector("button");
+
+button.addEventListener("click", function() 
+{
+    var question = document.querySelector("input[type=radio]:checked");
+    
+    if(question.value === "yes")
+    {
+        alert("WRONG !");
+    }
+    else
+    {
+        alert("RIGHT !");
+    }
+});
+        </script>
     </body>
 </html>
+
+<!--
+1. Le choléra est une maladie qui affecte les humains et les animaux.
+2. Pour soigner le Choléra on attend que les diarrhées cessent et l'on nourrit la personne atteinte.
+3. L'eau détruit le Choléra.
+4. Haïti est une ancienne colonie Espagnole.
+5. La République Dominicaine est une ancienne colonie Mexicaine.
+6. Une personne peut-être allergique au Choléra.
+-->
