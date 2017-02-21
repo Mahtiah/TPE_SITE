@@ -91,7 +91,7 @@ button.onclick = function() {
         questions_answers[i].checked = false;
     }
     
-    alert("Vous avez obtenu : " + mark);
+    alert("Vous avez obtenu : " + mark + "/" + questions.length);
 };
 
 
