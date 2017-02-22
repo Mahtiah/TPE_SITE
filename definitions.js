@@ -36,6 +36,11 @@ var defined_words =
     "Porteur sain"
 ];
 
+for(i = 0; i < defined_words.length; i++)
+{
+    defined_words[i] = defined_words[i].replace(new RegExp(" ", "g"), "\\s+");  
+}
+
 var marker_begin = '<a href="definitions.html" class="def">';
 var marker_end = "</a>";
 
