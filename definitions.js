@@ -13,7 +13,7 @@ var defined_words =
     "Entérocyte",
     "Procaryote",
     "Muqueuse intestinale", 
-    "Diarrhée aiguë sévère",
+    "Diarrhée",
     "Selles",
     "Symptôme",
     "P.I.B", 
