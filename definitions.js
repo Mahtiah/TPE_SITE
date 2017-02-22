@@ -33,7 +33,8 @@ var defined_words =
     "Déshydratation",
     "Foyer du séisme",
     "Casques bleus", 
-    "Porteur sain"
+    "Porteur sain",
+    "Peso"
 ];
 
 for(i = 0; i < defined_words.length; i++)
