@@ -12,7 +12,8 @@ var defined_words =
     "Microbe",
     "Entérocyte",
     "Procaryote",
-    "Muqueuse intestinale", 
+    "Muqueuse intestinale",
+    "Muqueuses intestinale",
     "Diarrhée",
     "Selles",
     "Symptôme",
@@ -34,6 +35,7 @@ var defined_words =
     "Foyer du séisme",
     "Casques bleus", 
     "Porteur sain",
+    "Porteurs sain",
     "Peso"
 ];
 
