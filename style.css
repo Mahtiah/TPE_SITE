@@ -75,9 +75,9 @@ img
     box-shadow: 10px 10px 5px black;
 }
 
-.def:hover
+.def
 {
-    color : blue;
+    font-weight : bold;
 }
 
 .def_title

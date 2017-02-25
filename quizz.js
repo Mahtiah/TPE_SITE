@@ -2,13 +2,27 @@ var questions =
 [
 "Le Choléra est une maladie qui affecte les humains et les animaux.",
 "Une personne atteinte du choléra peut mourrir de déshydratation.",
-"La République Dominicaine est une ancienne colonie Mexicaine."
+"La République Dominicaine est une ancienne colonie Mexicaine.",
+"Une personne atteinte du Choléra peut contaminer une autre avec son sang.",
+"L'eau contaminé par des bactéries Vibrio Cholerae prend une teinte légèrement verte.",
+"Le pain et plus spécifiquement le gluten contenu dans la farine de blé qui sert à faire le pain a des propriétés contre le Choléra.",
+"Haïti était autrefois riche.",
+"Ebola a fait plus de morts à Haïti que le Choléra.",
+"La République Dominicaine s'appelait auparavant la République d'Haïti.",
+"Haïti est aussi le nom de l'île où se trouvent les deux pays."
 ];
 
 var questions_good_answers =
 [
 false,
 true,
+false,
+false,
+false,
+false,
+true,
+false,
+false,
 false
 ];
 
