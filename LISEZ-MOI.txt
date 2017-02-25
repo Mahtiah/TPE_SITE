@@ -1,0 +1,1 @@
+/!\ Pour lancer le site vous devez glisser-déposer la page (le fichier) index.html dans votre navigateur (de préférence firefox ou chrome et une version récente qui support le HTML5 et CSS3 avec le Javascript activé) ou cliquer tout simplement sur index.html (qui est l'accueil) /!\
